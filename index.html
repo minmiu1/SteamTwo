@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-logo">
+                <img src="https://store.cloudflare.steamstatic.com/public/shared/images/responsive/header_logo.png"
+                    height="36" alt="Steam">
+            </div>
+            <h3 class="displayTitle">Best</h3>
+            <div class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">About us</a></li>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="search-game">
+            <div id="store-search">
+                <form action="#" name="searchForm">
+                    <div class="search-box">
+                        <input type="text" id="searchForm" name="searchForm" class="default" placeholder="search"
+                            size="22" maxlength="64">
+                        <div class="search-icon">
+                            <img src="https://store.cloudflare.steamstatic.com/public/images/v6/search_icon_btn.png">
+                        </div>
+                    </div>
+                </form>
+                <div class="category">
+                    <div id="categoryGroup">
+                        <!-- <div class="each-category">Action</div>
+                        <div class="each-category">FPS</div>
+                        <div class="each-category">MMO</div>
+                        <div class="each-category">RPG</div>
+                        <div class="each-category">RTS</div>
+                        <div class="each-category">Sport</div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="showing-game" id="display">
+            <!-- <div class="loading"></div> -->
+            <!--<div>
+                <div class="game-wrapper">
+                    <div class="cover" onclick="gamrDetail(1335200)">
+                        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1335200/header.jpg?t=1700123682"
+                            data-id="1335200">
+                        <div class="game-info">
+                            <p>Action Taimanin</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="game-wrapper">
+                    <div class="cover" onclick="gameDetail(1335200)">
+                        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1335200/header.jpg?t=1700123682"
+                            data-id="1335200">
+                        <div class="game-info">
+                            <p>Action Taimanin</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="game-wrapper">
+                    <div class="cover" onclick="gameDetail(1335200)">
+                        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1335200/header.jpg?t=1700123682"
+                            data-id="1335200">
+                        <div class="game-info">
+                            <p>Action Taimanin</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="game-wrapper">
+                    <div class="cover" onclick="gameDetail(1335200)">
+                        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1335200/header.jpg?t=1700123682"
+                            data-id="1335200">
+                        <div class="game-info">
+                            <p>Action Taimanin</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="game-wrapper">
+                    <div class="cover" onclick="gameDetail(1335200)">
+                        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1335200/header.jpg?t=1700123682"
+                            data-id="1335200">
+                        <div class="game-info">
+                            <p>Action Taimanin</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="game-wrapper">
+                    <div class="cover" onclick="gameDetail(1335200)">
+                        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1335200/header.jpg?t=1700123682"
+                            data-id="1335200">
+                        <div class="game-info">
+                            <p>Action Taimanin</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="game-wrapper">
+                    <div class="cover" onclick="gameDetail(1335200)">
+                        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1335200/header.jpg?t=1700123682"
+                            data-id="1335200">
+                        <div class="game-info">
+                            <p>Action Taimanin</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </main>
+    <footer>
+        <div class="btn-group">
+            <button class="nextPage btn btn-pre" onclick="renderAllGames('-')">☜</button>
+            <button class="nextPage" id="btn1" onclick="renderAllGames(1)">1</button>
+            <button class="nextPage" id="btn2" onclick="renderAllGames(2)">2</button>
+            <button class="nextPage" id="btn3" onclick="renderAllGames(3)">3</button>
+            <button class="nextPage" id="btn4" onclick="renderAllGames(4)">4</button>
+            <button class="nextPage" id="btn5" onclick="renderAllGames(5)">5</button>
+            <button class="nextPage btn btn-next" onclick="renderAllGames('+')">☞</button>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
