@@ -180,7 +180,7 @@ const gameDetail = async (appid) => {
             Popular user-defined tags for this product:
             <div>${steamspyTags}</div>
             </div>
-            <button><a href="index.html">a</a></button>
+            <button class="back"><a href="index.html">Back</a></button>
             </div>
             `;
             showingGame.append(game);

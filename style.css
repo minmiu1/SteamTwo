@@ -289,3 +289,31 @@ main .showing_game {
     text-overflow: ellipsis;
     cursor: pointer;
 }
+
+.back {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 14px;
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 1px 0px 15px 5px #FE97FF;
+    box-shadow: inset 1px 0px 15px 5px #FE97FF;
+}
+
+.back:hover {
+    -webkit-box-shadow: 1px 0px 15px 5px #FE97FF;
+    box-shadow: 1px 0px 15px 5px #FE97FF;
+}
+
+.back:active {
+    background-color: #FE97FF;
+}
+
+.back a {
+    text-decoration: none;
+    color: #fff;
+}
